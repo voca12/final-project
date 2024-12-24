@@ -1,0 +1,175 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #0a0000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .hehe {
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hehe h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hehe p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .hehe button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f4c542;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hehe button:hover {
+    background-color: #d6a935;
+  }
+  
+  .product {
+    padding: 60px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0a0000;
+    color: white;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  .contact {
+    padding: 20px;
+    text-align: center;
+    background-color: #0a0000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+ 
+.product-image {
+    max-width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.product-section {
+    padding-top: 30px;
+}
+
+
+.buy-now-btn {
+    display: inline-block;
+    background-color: #4d504d; 
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-btn:hover {
+    background-color: #393a39; 
+}
+
+.navb4r {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navb4r a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.navb4r a:hover {
+  text-decoration: underline;
+}
+
+.cont4ct {
+  padding: 20px;
+  text-align: center;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
